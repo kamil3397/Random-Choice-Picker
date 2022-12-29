@@ -14,7 +14,7 @@ function createTags(input) {
     .map((tag) => tag.trim());
   console.log(tags);
 
-  tagEl.innerHTML = '';
+  tagsEl.innerHTML = '';
 
   tags.forEach((tag) => {
     const tagEl = document.createElement('span');
